@@ -1,0 +1,124 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: poppins;
+}
+
+/* Latar START */
+.latar{
+    width: 100vw;
+    height: 100vh;
+
+
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/561/139/745/bocchi-the-rock-anime-anime-girls-hd-wallpaper-preview.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.latar-container{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+/* Latar EMD */
+
+.form{
+    width: 100%;
+    height: 100vh;
+    
+    align-content: center;
+}
+
+.form .container{
+    height: 50vh;
+    padding: 10px;
+
+}
+
+.form .container h2{
+    color: white;
+    text-align: center;
+}
+
+.form .container .flex{
+    display: flex;
+    justify-content: center;    
+
+}
+
+.form .container .flex form{
+    color: white;
+    margin-top: 50px;
+}
+
+.form .container .flex form .format{
+    min-width: 300px;
+    max-width: 600px;
+
+    text-align: center;
+}
+
+.form .container .flex form .format label{
+    text-align: left;
+    display: block;
+}
+
+.form .container .flex form .format input{
+    width: 100%;
+    color: gray;
+    padding: 5px;
+    
+
+    background-color:unset;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    border-bottom: 1px solid white;
+
+}
+
+.form .container .flex form .format button{
+    color: white;
+    padding: 5px;
+    margin-top: 50px;
+    width: 50%;
+
+
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: unset;
+
+    font-weight: 600;
+    transition: all ease-in 500ms;
+}.form .container .flex form .format button:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+
+    font-weight: 600;
+    transition: all ease-in-out 210ms;
+
+}
+
+/* Already have an account? */
+.form .container .flex form .format .option{
+    margin-top: 20px;
+    text-align: right;
+}.form .container .flex form .format .option a{
+    color: yellow;
+    text-shadow: 2px 0 2px black;
+    font-size: 0.78em;
+
+    text-decoration: underline black;
+    
+    transition: all ease-in 500ms;
+}.form .container .flex form .format .option a:hover{
+    text-decoration: underline rgb(255, 255, 120);
+    text-underline-offset: 5px;
+
+    transition: all ease-in-out 360ms;
+}
+/* Already have an account? */

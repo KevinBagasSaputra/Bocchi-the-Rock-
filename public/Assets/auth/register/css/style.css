@@ -1,0 +1,136 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+/* Latar START */
+.latar{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('https://moewalls.com/wp-content/uploads/2024/05/hitori-gotoh-at-school-bocchi-the-rock-thumb.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.latar .latar-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+
+    align-content: center;
+}
+/* Latar END */
+
+
+
+/* Form START */
+.form{
+    width: 100%;
+    height: 50vh; /*50vh diganti jadi auto*/
+
+}
+
+.form .form-container{
+    display: flex;    
+    justify-content: center;
+
+
+}
+
+.form .form-container form{
+    min-width: 300px;
+    max-width: 600px;
+
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c827bb75-a744-4f5c-aab7-376618cc9fd7/dfklp5r-4705b13e-0766-4053-a714-a04845e2d0ae.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M4MjdiYjc1LWE3NDQtNGY1Yy1hYWI3LTM3NjYxOGNjOWZkN1wvZGZrbHA1ci00NzA1YjEzZS0wNzY2LTQwNTMtYTcxNC1hMDQ4NDVlMmQwYWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rZHT-QG1XsL0ASGz4K-R29rC5pg579Lwnnexm-cnVu8');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+}
+
+.form .form-container form h2{
+    color: white;
+    margin-bottom: 40px;
+}
+
+    /* Group Parent */
+    .group{
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+    
+    
+        .group .role{
+            display: flex;
+            justify-content: end;
+        }.group .role select{
+            color: white;
+            background-color: #49679B;
+        }
+        .group .role label{
+            font-size: 0.76em;
+        }
+    /* Group Parent */
+
+    /* Label */
+    .form .form-container form label{
+        color: white;
+        display: block;
+        text-align: left;
+    }
+    /* Label */
+
+    /* Input  */
+    .form .form-container form input{
+        width: 100%;
+        padding: 5px;
+
+        color: gray;
+        border: none;
+        background-color: unset;
+
+        border-bottom: 1px solid white;
+    }
+    /* Input  */
+
+    /* Button dan Option*/
+    .group button{
+        width: 100%;
+
+        color: white;
+        background-color: unset;
+
+        padding: 10px;
+
+        border: 1px solid white;
+
+        transition: all ease-in 500ms;
+    }.group button:hover{
+        color: black;
+        background-color: white;
+        font-weight: 700;
+
+        border: 1px solid black;
+        transition: all ease-in-out 220ms;
+    }
+
+
+    .group .option{
+        margin: 10px;
+    }.group .option a{
+        font-size: 0.9em;
+        color: #49679B;
+    }
+    /* Button dan Option */
+/* Form END */
